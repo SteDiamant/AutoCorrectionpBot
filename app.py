@@ -9,7 +9,7 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"),)
 with st.expander("Instructions"):
     prompt = st.text_area("Instructions",
                         height=500,
-    placeholder=
+    value=
     """Παρακαλώ αξιολογήστε την παρακάτω εργασία ακολουθώντας τα εξής κριτήρια:
     Μορφολογικές πτυχές του κειμένου:
     Παρουσία περιεχομένων
