@@ -1,7 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 import os
-
+st.set_page_config(layout="wide")
 # Initialize OpenAI client
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
