@@ -44,7 +44,8 @@ if st.button("Submit"):
     else:
         try:
             completion = client.chat.completions.create(
-                model="o1-preview",
+                model="gpt-4o",
+                temperature=0,
                 messages=[
                     {
                         "role": "user",
