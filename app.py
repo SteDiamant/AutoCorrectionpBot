@@ -44,7 +44,6 @@ if st.button("Submit"):
     else:
         try:
             completion = client.chat.completions.create(
-                temperature=0,
                 model="o1-mini",
                 messages=[
                     {
